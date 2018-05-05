@@ -30,7 +30,6 @@ pairs5 = pairs5.fromkeys(range(40000001,50000000), 5)
 
 pairs = dict(pairs1.items() + pairs2.items() + pairs3.items() + pairs4.items() + pairs5.items())
 
-
 #Duplicate removal of b
 pairsValues = pairs.values()
 pairsValue = list(set(pairsValues))
